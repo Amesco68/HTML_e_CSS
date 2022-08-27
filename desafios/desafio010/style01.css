@@ -1,0 +1,125 @@
+@charset "UTF 8";
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+body {
+    background-color: #84E1AD;
+
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #3DD973, #39BF68, #2A8C4C, #22733F, #1B5936);
+    color: white;
+    padding: 10px;
+    margin: -8px;
+}
+
+header > h1 {
+    font-weight: bold;
+    margin: 10px;
+    font-size: normal;
+}
+
+header > h2 {
+    font-weight: normal;
+    margin: 22px;
+    padding: 5px 5px 5px 5px;
+    font-size: 1.2em;
+}
+
+header > nav {
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#section01 {
+    background-color: white;
+    margin: 8px;
+    padding: 10px 10px;
+}
+
+#section01 > article > h1 {
+    background-image: linear-gradient(to right, #84E1AD, white);
+    color: #1B5936;
+    font-family: 'android';
+}
+
+#section01 > article > h2 {
+    background-image: linear-gradient(to right, #84E1AD, white);
+    color: #1B5936;
+    font-family: 'android';
+}
+
+#bug {
+    margin: auto;
+}
+
+#section02 {
+    background-color: #1B5936;
+    margin: 20px 0px 20px 0px;
+}
+
+#section02 > iframe {
+    margin: 52px;
+}
+
+#section03 {
+    border-radius: 0px 0px 10px 10px;
+}
+
+#section03 > article {
+    background-color: #afe6c7;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#section03 > article > h1 {
+    background-color: #28b665;
+    font-weight: normal;
+    color: white;
+    margin: -9px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#pfinal {
+    padding: 10px;
+}
+
+footer {
+    background-color: #1B5936;
+    color: white;
+    text-align: center;
+    margin: -10px -10px -20px -10px;   
+}
+
+a {
+    color: #237044;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#link::after {
+    content: '⚭';
+}
+
+#revert:hover {
+    text-decoration: underline;   
+}
+
+li::before {
+    content:'✔';   
+}
